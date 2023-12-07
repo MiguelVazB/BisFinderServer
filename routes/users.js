@@ -32,8 +32,8 @@ userRouter.put("/likes", async (req, res) => {
 
     res.json(updatedUser)
    } catch (error) {
-    // console.log(error)
-    console.log("user not logged in")
+    console.log(error)
+    // console.log("user not logged in")
    }
 })
 
